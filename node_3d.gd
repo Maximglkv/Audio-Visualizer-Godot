@@ -4,16 +4,16 @@ extends Control
 var spectrum = AudioServer.get_bus_effect_instance(1,0)
  
 @onready
-var topRightArray = $CircleBase/Right/Top.get_children()
+var topRightArray = $AudioStreamPlayer/IDK/Control/topLeft.get_children()
  
 @onready
-var bottomRightArray = $CircleBase/Right/Bottom.get_children()
+var bottomRightArray = $AudioStreamPlayer/IDK/Control/bottomLeft.get_children()
  
 @onready
-var topLeftArray = $CircleBase/Left/Top.get_children()
+var topLeftArray = $AudioStreamPlayer/IDK/Control/topRight.get_children()
  
 @onready
-var bottomLeftArray = $CircleBase/Left/Bottom.get_children()
+var bottomLeftArray = $AudioStreamPlayer/IDK/Control/bottomRight.get_children()
  
 const VU_COUNT = 16
 const HEIGHT = 60
@@ -24,7 +24,7 @@ const MIN_DB = 60
 func _ready():
 	bottomLeftArray.reverse()
 	topLeftArray.reverse()
-
+ 
 func _process(delta):
  
 	var prev_hz = 0
@@ -32,14 +32,18 @@ func _process(delta):
 		var hz = i * FREQ_MAX / VU_COUNT;
 		var f = spectrum.get_magnitude_for_frequency_range(prev_hz,hz)
 		var energy = clamp((MIN_DB + linear_to_db(f.length()))/MIN_DB,0,1)
-		var height = energy * HEIGHT
+		var height = energy * (20 + HEIGHT)
  
 		prev_hz = hz
  
 		var bottomRightRect = bottomRightArray[i - 1]
+ 
 		var topRightRect = topRightArray[i - 1]
+ 
 		var topLeftRect = topLeftArray[i - 1]
+ 
 		var bottomLeftRect = bottomLeftArray[i - 1]
+ 
 		var tween = get_tree().create_tween()
  
 		tween.tween_property(topRightRect, "size", Vector2(topRightRect.size.x, height), 0.05)
