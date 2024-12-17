@@ -1,29 +1,145 @@
-[gd_scene load_steps=2 format=3 uid="uid://c3rao0iemotwm"]
+[gd_scene load_steps=4 format=3 uid="uid://etiqge1tascw"]
 
-[sub_resource type="CSharpScript" id="CSharpScript_55hf3"]
-script/source = "using Godot;
-using System;
+[ext_resource type="AudioStream" uid="uid://cibkppr6rg4fd" path="res://I Serve the Base.mp3" id="1_b2ace"]
+[ext_resource type="Script" path="res://node_3d.gd" id="1_s1yen"]
+[ext_resource type="Texture2D" uid="uid://ol4dhj88reho" path="res://piskel circle.png" id="3_mnqwn"]
 
-public partial class adadada : Node3D
-{
-	private float[] spectrum = new float[256];
-	private const string AUDIO_BUS = \"Music\";
-
-	public override void _Process(float delta)
-	{
-		var spectrumAnalyzer = AudioServer.GetBusEffectInstance(AudioServer.GetBusIndex(AUDIO_BUS), 0) as AudioEffectSpectrumAnalyzerInstance;
-
-		if (spectrumAnalyzer != null)
-		{
-			spectrumAnalyzer.GetMagnitudesForFrequencyRange(20, 20000, spectrum, 256);
-		}
-	}
-}
-"
-
-[node name="Node3D" type="Node3D"]
-script = SubResource("CSharpScript_55hf3")
+[node name="Audio Visualizer" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_s1yen")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_b2ace")
+volume_db = -12.505
+autoplay = true
+bus = &"Music"
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+[node name="TextureRect" type="TextureRect" parent="AudioStreamPlayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("3_mnqwn")
+
+[node name="Right" type="Control" parent="AudioStreamPlayer/TextureRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Bottom" type="Control" parent="AudioStreamPlayer/TextureRect/Right"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+layout_mode = 0
+offset_left = -221.0
+offset_right = -201.0
+offset_bottom = 10.0
+
+[node name="ColorRect2" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = -188.0
+offset_right = -168.0
+offset_bottom = 10.0
+
+[node name="ColorRect3" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = -155.0
+offset_right = -135.0
+offset_bottom = 10.0
+
+[node name="ColorRect4" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = -120.0
+offset_right = -100.0
+offset_bottom = 10.0
+
+[node name="ColorRect5" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = -87.0
+offset_right = -67.0
+offset_bottom = 10.0
+
+[node name="ColorRect6" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = -56.0
+offset_right = -36.0
+offset_bottom = 10.0
+
+[node name="ColorRect7" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = -23.0
+offset_right = -3.0
+offset_bottom = 10.0
+
+[node name="ColorRect8" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = -23.0
+offset_right = -3.0
+offset_bottom = 10.0
+
+[node name="ColorRect9" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = 15.0
+offset_right = 35.0
+offset_bottom = 10.0
+
+[node name="ColorRect10" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = 51.0
+offset_right = 71.0
+offset_bottom = 10.0
+
+[node name="ColorRect11" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = 88.0
+offset_right = 108.0
+offset_bottom = 10.0
+
+[node name="ColorRect12" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = 123.0
+offset_right = 143.0
+offset_bottom = 10.0
+
+[node name="ColorRect13" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = 161.0
+offset_right = 181.0
+offset_bottom = 10.0
+
+[node name="ColorRect14" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = 196.0
+offset_right = 216.0
+offset_bottom = 10.0
+
+[node name="ColorRect15" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = 229.0
+offset_right = 249.0
+offset_bottom = 10.0
+
+[node name="ColorRect16" type="ColorRect" parent="AudioStreamPlayer/TextureRect/Right/Bottom"]
+offset_left = 229.0
+offset_right = 249.0
+offset_bottom = 10.0
