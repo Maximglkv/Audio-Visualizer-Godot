@@ -27,6 +27,7 @@ offset_right = -190.0
 offset_bottom = -104.0
 grow_horizontal = 2
 grow_vertical = 2
+scale = Vector2(1.5, 1.5)
 min_value = 0.5
 max_value = 1.5
 step = 0.01
@@ -54,6 +55,7 @@ offset_right = -190.0
 offset_bottom = -171.0
 grow_horizontal = 2
 grow_vertical = 2
+scale = Vector2(1.5, 1.5)
 max_value = 1.0
 step = 0.001
 script = ExtResource("3_hg7bq")
@@ -209,16 +211,19 @@ offset_right = 249.0
 offset_bottom = 10.0
 
 [node name="ColorRect17" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = 265.0
 offset_right = 285.0
 offset_bottom = 10.0
 
 [node name="ColorRect18" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = 302.0
 offset_right = 322.0
 offset_bottom = 10.0
 
 [node name="ColorRect19" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = 337.0
 offset_right = 357.0
 offset_bottom = 10.0
@@ -335,16 +340,19 @@ offset_right = 249.0
 offset_bottom = 10.0
 
 [node name="ColorRect17" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = 265.0
 offset_right = 285.0
 offset_bottom = 10.0
 
 [node name="ColorRect18" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = 302.0
 offset_right = 322.0
 offset_bottom = 10.0
 
 [node name="ColorRect19" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = 337.0
 offset_right = 357.0
 offset_bottom = 10.0
@@ -462,16 +470,19 @@ offset_right = 249.0
 offset_bottom = 10.0
 
 [node name="ColorRect17" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
 offset_left = 265.0
 offset_right = 285.0
 offset_bottom = 10.0
 
 [node name="ColorRect18" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
 offset_left = 302.0
 offset_right = 322.0
 offset_bottom = 10.0
 
 [node name="ColorRect19" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
 offset_left = 337.0
 offset_right = 357.0
 offset_bottom = 10.0
@@ -589,16 +600,19 @@ offset_right = 249.0
 offset_bottom = 10.0
 
 [node name="ColorRect17" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = 265.0
 offset_right = 285.0
 offset_bottom = 10.0
 
 [node name="ColorRect18" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = 302.0
 offset_right = 322.0
 offset_bottom = 10.0
 
 [node name="ColorRect19" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = 337.0
 offset_right = 357.0
 offset_bottom = 10.0
