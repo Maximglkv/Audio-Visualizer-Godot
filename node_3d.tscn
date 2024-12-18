@@ -50,12 +50,13 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 290.0
+offset_left = 229.0
 offset_top = -299.0
-offset_right = 330.0
+offset_right = 269.0
 offset_bottom = -259.0
 grow_horizontal = 2
 grow_vertical = 2
+scale = Vector2(0.9, 0.9)
 
 [node name="ColorRect" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
 layout_mode = 0
@@ -64,78 +65,108 @@ offset_right = -201.0
 offset_bottom = 10.0
 
 [node name="ColorRect2" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = -188.0
 offset_right = -168.0
 offset_bottom = 10.0
 
 [node name="ColorRect3" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = -155.0
 offset_right = -135.0
 offset_bottom = 10.0
 
 [node name="ColorRect4" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = -120.0
 offset_right = -100.0
 offset_bottom = 10.0
 
 [node name="ColorRect5" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = -87.0
 offset_right = -67.0
 offset_bottom = 10.0
 
 [node name="ColorRect6" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = -56.0
 offset_right = -36.0
 offset_bottom = 10.0
 
 [node name="ColorRect7" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = -23.0
 offset_right = -3.0
 offset_bottom = 10.0
 
 [node name="ColorRect8" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = -23.0
 offset_right = -3.0
 offset_bottom = 10.0
 
 [node name="ColorRect9" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = 15.0
 offset_right = 35.0
 offset_bottom = 10.0
 
 [node name="ColorRect10" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = 51.0
 offset_right = 71.0
 offset_bottom = 10.0
 
 [node name="ColorRect11" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = 88.0
 offset_right = 108.0
 offset_bottom = 10.0
 
 [node name="ColorRect12" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = 123.0
 offset_right = 143.0
 offset_bottom = 10.0
 
 [node name="ColorRect13" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = 161.0
 offset_right = 181.0
 offset_bottom = 10.0
 
 [node name="ColorRect14" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = 196.0
 offset_right = 216.0
 offset_bottom = 10.0
 
 [node name="ColorRect15" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = 229.0
 offset_right = 249.0
 offset_bottom = 10.0
 
 [node name="ColorRect16" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+layout_mode = 0
 offset_left = 229.0
 offset_right = 249.0
+offset_bottom = 10.0
+
+[node name="ColorRect17" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+offset_left = 265.0
+offset_right = 285.0
+offset_bottom = 10.0
+
+[node name="ColorRect18" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+offset_left = 302.0
+offset_right = 322.0
+offset_bottom = 10.0
+
+[node name="ColorRect19" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topRight"]
+offset_left = 337.0
+offset_right = 357.0
 offset_bottom = 10.0
 
 [node name="topLeft" type="Control" parent="AudioStreamPlayer/IDK/Control"]
@@ -145,12 +176,13 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -287.0
+offset_left = -360.0
 offset_top = -299.0
-offset_right = -247.0
+offset_right = -320.0
 offset_bottom = -259.0
 grow_horizontal = 2
 grow_vertical = 2
+scale = Vector2(0.9, 0.9)
 
 [node name="ColorRect" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
 layout_mode = 0
@@ -159,78 +191,235 @@ offset_right = -201.0
 offset_bottom = 10.0
 
 [node name="ColorRect2" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = -188.0
 offset_right = -168.0
 offset_bottom = 10.0
 
 [node name="ColorRect3" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = -155.0
 offset_right = -135.0
 offset_bottom = 10.0
 
 [node name="ColorRect4" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = -120.0
 offset_right = -100.0
 offset_bottom = 10.0
 
 [node name="ColorRect5" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = -87.0
 offset_right = -67.0
 offset_bottom = 10.0
 
 [node name="ColorRect6" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = -56.0
 offset_right = -36.0
 offset_bottom = 10.0
 
 [node name="ColorRect7" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = -23.0
 offset_right = -3.0
 offset_bottom = 10.0
 
 [node name="ColorRect8" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = -23.0
 offset_right = -3.0
 offset_bottom = 10.0
 
 [node name="ColorRect9" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = 15.0
 offset_right = 35.0
 offset_bottom = 10.0
 
 [node name="ColorRect10" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = 51.0
 offset_right = 71.0
 offset_bottom = 10.0
 
 [node name="ColorRect11" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = 88.0
 offset_right = 108.0
 offset_bottom = 10.0
 
 [node name="ColorRect12" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = 123.0
 offset_right = 143.0
 offset_bottom = 10.0
 
 [node name="ColorRect13" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = 161.0
 offset_right = 181.0
 offset_bottom = 10.0
 
 [node name="ColorRect14" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = 196.0
 offset_right = 216.0
 offset_bottom = 10.0
 
 [node name="ColorRect15" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = 229.0
 offset_right = 249.0
 offset_bottom = 10.0
 
 [node name="ColorRect16" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+layout_mode = 0
 offset_left = 229.0
 offset_right = 249.0
+offset_bottom = 10.0
+
+[node name="ColorRect17" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+offset_left = 265.0
+offset_right = 285.0
+offset_bottom = 10.0
+
+[node name="ColorRect18" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+offset_left = 302.0
+offset_right = 322.0
+offset_bottom = 10.0
+
+[node name="ColorRect19" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/topLeft"]
+offset_left = 337.0
+offset_right = 357.0
+offset_bottom = 10.0
+
+[node name="bottomLeft" type="Control" parent="AudioStreamPlayer/IDK/Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -237.0
+offset_top = 301.0
+offset_right = -197.0
+offset_bottom = 341.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 3.14159
+scale = Vector2(0.9, 0.9)
+
+[node name="ColorRect" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = -221.0
+offset_right = -201.0
+offset_bottom = 10.0
+
+[node name="ColorRect2" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = -188.0
+offset_right = -168.0
+offset_bottom = 10.0
+
+[node name="ColorRect3" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = -155.0
+offset_right = -135.0
+offset_bottom = 10.0
+
+[node name="ColorRect4" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = -120.0
+offset_right = -100.0
+offset_bottom = 10.0
+
+[node name="ColorRect5" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = -87.0
+offset_right = -67.0
+offset_bottom = 10.0
+
+[node name="ColorRect6" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = -56.0
+offset_right = -36.0
+offset_bottom = 10.0
+
+[node name="ColorRect7" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = -23.0
+offset_right = -3.0
+offset_bottom = 10.0
+
+[node name="ColorRect8" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = -23.0
+offset_right = -3.0
+offset_bottom = 10.0
+
+[node name="ColorRect9" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = 15.0
+offset_right = 35.0
+offset_bottom = 10.0
+
+[node name="ColorRect10" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = 51.0
+offset_right = 71.0
+offset_bottom = 10.0
+
+[node name="ColorRect11" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = 88.0
+offset_right = 108.0
+offset_bottom = 10.0
+
+[node name="ColorRect12" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = 123.0
+offset_right = 143.0
+offset_bottom = 10.0
+
+[node name="ColorRect13" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = 161.0
+offset_right = 181.0
+offset_bottom = 10.0
+
+[node name="ColorRect14" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = 196.0
+offset_right = 216.0
+offset_bottom = 10.0
+
+[node name="ColorRect15" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = 229.0
+offset_right = 249.0
+offset_bottom = 10.0
+
+[node name="ColorRect16" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+layout_mode = 0
+offset_left = 229.0
+offset_right = 249.0
+offset_bottom = 10.0
+
+[node name="ColorRect17" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+offset_left = 265.0
+offset_right = 285.0
+offset_bottom = 10.0
+
+[node name="ColorRect18" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+offset_left = 302.0
+offset_right = 322.0
+offset_bottom = 10.0
+
+[node name="ColorRect19" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
+offset_left = 337.0
+offset_right = 357.0
 offset_bottom = 10.0
 
 [node name="bottomRight" type="Control" parent="AudioStreamPlayer/IDK/Control"]
@@ -240,217 +429,122 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 287.0
-offset_top = 298.0
-offset_right = 327.0
-offset_bottom = 338.0
+offset_left = 326.0
+offset_top = 299.0
+offset_right = 366.0
+offset_bottom = 339.0
 grow_horizontal = 2
 grow_vertical = 2
+rotation = 3.14159
+scale = Vector2(0.9, 0.9)
 
 [node name="ColorRect" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
 layout_mode = 0
 offset_left = -221.0
 offset_right = -201.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect2" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = -188.0
 offset_right = -168.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect3" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = -155.0
 offset_right = -135.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect4" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = -120.0
 offset_right = -100.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect5" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = -87.0
 offset_right = -67.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect6" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = -56.0
 offset_right = -36.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect7" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = -23.0
 offset_right = -3.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect8" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = -23.0
 offset_right = -3.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect9" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = 15.0
 offset_right = 35.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect10" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = 51.0
 offset_right = 71.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect11" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = 88.0
 offset_right = 108.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect12" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = 123.0
 offset_right = 143.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect13" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = 161.0
 offset_right = 181.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect14" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = 196.0
 offset_right = 216.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect15" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+layout_mode = 0
 offset_left = 229.0
 offset_right = 249.0
 offset_bottom = 10.0
-rotation = 3.14159
 
 [node name="ColorRect16" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
-offset_left = 229.0
-offset_right = 249.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="bottomLeft" type="Control" parent="AudioStreamPlayer/IDK/Control"]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -272.0
-offset_top = 298.0
-offset_right = -232.0
-offset_bottom = 338.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="ColorRect" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
 layout_mode = 0
-offset_left = -221.0
-offset_right = -201.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect2" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = -188.0
-offset_right = -168.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect3" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = -155.0
-offset_right = -135.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect4" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = -120.0
-offset_right = -100.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect5" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = -87.0
-offset_right = -67.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect6" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = -56.0
-offset_right = -36.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect7" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = -23.0
-offset_right = -3.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect8" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = -23.0
-offset_right = -3.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect9" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = 15.0
-offset_right = 35.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect10" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = 51.0
-offset_right = 71.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect11" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = 88.0
-offset_right = 108.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect12" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = 123.0
-offset_right = 143.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect13" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = 161.0
-offset_right = 181.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect14" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = 196.0
-offset_right = 216.0
-offset_bottom = 10.0
-rotation = 3.14159
-
-[node name="ColorRect15" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
 offset_left = 229.0
 offset_right = 249.0
 offset_bottom = 10.0
-rotation = 3.14159
 
-[node name="ColorRect16" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomLeft"]
-offset_left = 229.0
-offset_right = 249.0
+[node name="ColorRect17" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+offset_left = 265.0
+offset_right = 285.0
 offset_bottom = 10.0
-rotation = 3.14159
+
+[node name="ColorRect18" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+offset_left = 302.0
+offset_right = 322.0
+offset_bottom = 10.0
+
+[node name="ColorRect19" type="ColorRect" parent="AudioStreamPlayer/IDK/Control/bottomRight"]
+offset_left = 337.0
+offset_right = 357.0
+offset_bottom = 10.0

@@ -7,15 +7,15 @@ var spectrum = AudioServer.get_bus_effect_instance(1,0)
 var topRightArray = $AudioStreamPlayer/IDK/Control/topLeft.get_children()
  
 @onready
-var bottomRightArray = $AudioStreamPlayer/IDK/Control/bottomLeft.get_children()
+var bottomRightArray = $AudioStreamPlayer/IDK/Control/bottomRight.get_children()
  
 @onready
 var topLeftArray = $AudioStreamPlayer/IDK/Control/topRight.get_children()
  
 @onready
-var bottomLeftArray = $AudioStreamPlayer/IDK/Control/bottomRight.get_children()
+var bottomLeftArray = $AudioStreamPlayer/IDK/Control/bottomLeft.get_children()
  
-const VU_COUNT = 16
+const VU_COUNT = 19
 const HEIGHT = 60
 const FREQ_MAX = 11050.0
  
