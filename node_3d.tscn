@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://etiqge1tascw"]
+[gd_scene load_steps=6 format=3 uid="uid://etiqge1tascw"]
 
 [ext_resource type="AudioStream" uid="uid://cibkppr6rg4fd" path="res://I Serve the Base.mp3" id="1_b2ace"]
+[ext_resource type="Script" path="res://AudioPause.gd" id="1_fo35s"]
 [ext_resource type="Script" path="res://node_3d.gd" id="1_s1yen"]
 [ext_resource type="Script" path="res://pitch.gd" id="2_eyjq6"]
 [ext_resource type="Script" path="res://VolumeSlider.gd" id="3_hg7bq"]
@@ -616,3 +617,15 @@ layout_mode = 0
 offset_left = 337.0
 offset_right = 357.0
 offset_bottom = 10.0
+
+[node name="CheckBox" type="CheckBox" parent="."]
+layout_mode = 0
+offset_left = 86.0
+offset_top = 297.0
+offset_right = 155.0
+offset_bottom = 328.0
+scale = Vector2(1.5, 1.5)
+text = "Mute"
+script = ExtResource("1_fo35s")
+
+[connection signal="toggled" from="CheckBox" to="CheckBox" method="_on_toggled"]
