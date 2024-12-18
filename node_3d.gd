@@ -16,7 +16,7 @@ var topLeftArray = $AudioStreamPlayer/IDK/Control/topRight.get_children()
 var bottomLeftArray = $AudioStreamPlayer/IDK/Control/bottomLeft.get_children()
  
 const VU_COUNT = 19
-const HEIGHT = 60
+const HEIGHT = 80
 const FREQ_MAX = 11050.0
  
 const MIN_DB = 60
@@ -32,16 +32,13 @@ func _process(delta):
 		var hz = i * FREQ_MAX / VU_COUNT;
 		var f = spectrum.get_magnitude_for_frequency_range(prev_hz,hz)
 		var energy = clamp((MIN_DB + linear_to_db(f.length()))/MIN_DB,0,1)
-		var height = energy * (20 + HEIGHT)
+		var height = energy * (40 + HEIGHT)
  
 		prev_hz = hz
  
 		var bottomRightRect = bottomRightArray[i - 1]
- 
 		var topRightRect = topRightArray[i - 1]
- 
 		var topLeftRect = topLeftArray[i - 1]
- 
 		var bottomLeftRect = bottomLeftArray[i - 1]
  
 		var tween = get_tree().create_tween()

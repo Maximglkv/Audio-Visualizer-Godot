@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://etiqge1tascw"]
+[gd_scene load_steps=4 format=3 uid="uid://etiqge1tascw"]
 
 [ext_resource type="AudioStream" uid="uid://cibkppr6rg4fd" path="res://I Serve the Base.mp3" id="1_b2ace"]
 [ext_resource type="Script" path="res://node_3d.gd" id="1_s1yen"]
+[ext_resource type="Script" path="res://VolumeSlider.gd" id="3_hg7bq"]
 
 [node name="Audio Visualizer" type="Control"]
 layout_mode = 3
@@ -12,9 +13,27 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_s1yen")
 
+[node name="VolumeSlider" type="HSlider" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -490.0
+offset_top = -187.0
+offset_right = -190.0
+offset_bottom = -171.0
+grow_horizontal = 2
+grow_vertical = 2
+max_value = 1.0
+step = 0.001
+script = ExtResource("3_hg7bq")
+bus_name = "Music"
+
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("1_b2ace")
-volume_db = -5.171
+volume_db = -19.837
 autoplay = true
 bus = &"Music"
 
@@ -24,10 +43,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -20.0
-offset_top = -20.0
-offset_right = 20.0
-offset_bottom = 20.0
+offset_left = -249.0
+offset_top = -27.0
+offset_right = 263.0
+offset_bottom = 485.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 0
@@ -50,9 +69,9 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 229.0
+offset_left = 208.0
 offset_top = -299.0
-offset_right = 269.0
+offset_right = 248.0
 offset_bottom = -259.0
 grow_horizontal = 2
 grow_vertical = 2
@@ -176,9 +195,9 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -360.0
+offset_left = -328.0
 offset_top = -299.0
-offset_right = -320.0
+offset_right = -288.0
 offset_bottom = -259.0
 grow_horizontal = 2
 grow_vertical = 2
@@ -302,10 +321,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -237.0
-offset_top = 301.0
-offset_right = -197.0
-offset_bottom = 341.0
+offset_left = -199.0
+offset_top = 299.0
+offset_right = -159.0
+offset_bottom = 339.0
 grow_horizontal = 2
 grow_vertical = 2
 rotation = 3.14159
@@ -429,9 +448,9 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 326.0
+offset_left = 337.0
 offset_top = 299.0
-offset_right = 366.0
+offset_right = 377.0
 offset_bottom = 339.0
 grow_horizontal = 2
 grow_vertical = 2

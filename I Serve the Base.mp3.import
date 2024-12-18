@@ -12,8 +12,8 @@ dest_files=["res://.godot/imported/I Serve the Base.mp3-af71a35169f68f9ec9fd7467
 
 [params]
 
-loop=false
-loop_offset=0
-bpm=0
+loop=true
+loop_offset=0.0
+bpm=0.0
 beat_count=0
 bar_beats=4
