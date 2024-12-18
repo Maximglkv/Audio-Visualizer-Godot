@@ -19,7 +19,7 @@ const VU_COUNT = 19
 const HEIGHT = 80
 const FREQ_MAX = 11050.0
  
-const MIN_DB = 60
+const MIN_DB = 90
  
 func _ready():
 	bottomLeftArray.reverse()
